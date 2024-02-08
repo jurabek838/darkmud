@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.btn1 {
+  position: absolute;
+  width: 200px;
+  height: 80px;
+  border-radius: 50px;
+  background: transparent;
+  cursor: pointer;
+}
+
+.btn2 {
+  width: 200px;
+  height: 80px;
+  border-radius: 50px;
+  background: transparent;
+  border: transparent;
+  border: 2px solid white;
+  position: absolute;
+  cursor: pointer;
+  display: none;
+}
+
+.kun {
+  position: absolute;
+  left: 675px;
+  width: 60px;
+  height: 60px;
+  background-color: gold;
+  border-radius: 50px;
+  padding: 10px;
+}
+
+.tun {
+  position: absolute;
+  left: 800px;
+  width: 60px;
+  height: 60px;
+  background-color: gold;
+  border-radius: 50px;
+  padding: 10px;
+  display: none;
+}/*# sourceMappingURL=main.css.map */
